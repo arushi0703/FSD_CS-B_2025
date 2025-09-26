@@ -1,0 +1,40 @@
+.parent{
+    display: flex;
+    background-color: chartreuse;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+
+.child1{
+    height: 200px;
+    width: 200px;
+    background-color: hotpink;
+    border: 3px dotted black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.child2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(172, 39, 228);
+    border: 3px dotted black;
+    padding: 10px;
+    margin: 10px;
+}
+.child3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(80, 118, 255);
+    border: 3px dotted black;
+    padding: 10px;
+    margin: 10px;
+}
+.child4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(115, 236, 255);
+    border: 3px dotted black;
+    padding: 10px;
+    margin: 10px;
+}
