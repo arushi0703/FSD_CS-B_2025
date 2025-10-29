@@ -1,0 +1,9 @@
+.container{
+  border:4px solid darkviolet;
+  background-color: lavender;
+  color: darkviolet;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
