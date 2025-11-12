@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-// import Profile from './component/Profile'
-// import Gallery from './component/Gallery'
-// import StateHandling from './component/StateHandling'
-// import ImageManipulation from './component/ImageManipulation'
+import Profile from './component/Profile'
+import Gallery from './component/Gallery'
+import StateHandling from './component/StateHandling'
+import ImageManipulation from './component/ImageManipulation'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Login from './pages/Login'
@@ -26,13 +26,16 @@ function App() {
 
       <BrowserRouter>
      <Routes>
-      <Route path='/login' element={<Login />}></Route>
+      <Route path='/login' element={<Login logData={data} />}></Route>
       <Route path='/registration' element={<Registration regData={setData}/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
       <Route path='/' element={<MainLayout/>}/>
      </Routes>
 
       </BrowserRouter>
+      <h2>
+        {JSON.stringify(data)}
+      </h2>
      
     </div>
   )
